@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+label{
+	margin:5px
+}
+#submit{
+	background-color:blue;
+	color:white;
+	padding:10px;
+	border-radius:15px;
+	border:none;
+	margin:10px;
+}
+fieldset{
+	margin:10px;
+}
+input{
+	margin:10px;
+}

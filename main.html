@@ -8,7 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<label for="name">Name</label>
+	<input id="name" type="text" placeholder="Name">
+	<br/>
+	<label for="phone">Phone</label>
+	<input id="phone" type="text" placeholder="Phone Number">
+	<br/>
+    <label for="address">Address</label>
+	<input id="address" type="text" placeholder="Address">
+	<fieldset>
+		<legend>Have you ever lived with a Dog before?</legend>
+		<label for="checkbox">Yes</label>
+		<input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?">
+	</fieldset>
+	<fieldset>
+		<legend>Have you ever lived with a Dog before?</legend>
+		<select multiple id="multiSelect">
+			<option>French Bulldog</option>
+			<option>Labrador Retriever</option>
+			<option>German Shepherd </option>
+		</select>
+	</fieldset>
+	<input type="submit" id="submit" value="Submit"/>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
